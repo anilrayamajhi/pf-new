@@ -1,0 +1,26 @@
+.about-section {
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+  background: linear-gradient(to bottom, #{fade-out($black, 0)} 0%,#{fade-out($black, .3)} 75%,$black 100%), url('../img/bg-about.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  p {
+    margin-bottom: 5rem;
+  }
+
+  .bubbleChart {
+    min-width: 100px;
+    max-width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    letter-spacing: 0;
+  }
+
+  @media(min-width: 992px) {
+    // .bubbleChart {
+    //   margin-left: 270px;
+    // }
+  }
+}
